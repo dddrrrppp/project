@@ -1,0 +1,268 @@
+body{
+	color: #333;
+	background-color: #f2f2f2;
+}
+#login{
+	height: 67px;
+	background-color: #333333;
+	min-width: 960px;
+}
+#login .login{
+	width: 960px;
+	height: 67px;
+	margin: 0 auto;
+	border: 0;
+	position: relative;
+}
+#login .main-logo{
+	width: 143px;
+	height: 67px;
+	position: static;
+	left: 2px;
+	float: left;
+	margin-right: 20px;
+}
+.wihteBgPic{
+	margin-left: 4px;
+	margin-top: 17px;
+}
+.login .b1{
+	font-size: 18px;
+	margin-top: 22px;
+	color: #cccccc;
+	float: left;
+}
+.login .b2{
+	font-size: 18px;
+	float: left;
+	margin-left: 18px;
+	color: white;
+	margin-top: 22px;
+}
+
+#main{
+	position: relative;
+	width: 100%;
+}
+#main .register-content{
+	width: 960px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+.register-content .phone-wrap{
+	display: inline-block;
+	position: relative;
+	margin-right: 12px;
+	/*background: #ccc;*/
+	background: #B40707;
+	width: 146px;
+	height: 35px;
+}
+.phone-icon{
+	display: inline-block;
+	position: absolute;
+	top: 6px;
+	left: 26px;
+	width: 14px;
+	height: 22px;
+	background: url(../images/resgister_img/reg-img01.png) no-repeat 0 -18px;
+}
+.tab-phone{
+	width: 66px;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 50px;
+	margin-right: 30px;
+	text-align: center;
+}
+.mail-wrap{
+	display: inline-block;
+	position: relative;
+	margin-right: 12px;
+	background: #ccc;
+	width: 146px;
+	height: 35px;
+}
+.mail-icon{
+	display: inline-block;
+	position: absolute;
+	top: 9px;
+	left: 16px;
+	width: 22px;
+	height: 17px;
+	background: url(../images/resgister_img/reg-img01.png) no-repeat 0 0px;
+}
+.tab-email{
+	width: 66px;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 50px;
+	margin-right: 30px;
+	text-align: center;
+}
+.r{
+	font-size: 14px;
+	margin-top: 5px;
+	float: right;
+}
+.r a{
+	color: #007dff;
+}
+.r span{
+	color: #007dff;
+}
+.reg-detail{
+	width: 420px;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+	padding: 30px 270px;
+}
+.dpmenu-EMU5{
+	position: absolute;
+    min-width: 136px;
+    max-width: 290px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 1px 0 1px rgba(0, 0, 0, 0.2), -1px 0 1px rgba(0, 0, 0, 0.2);
+    max-height: 200px;
+    z-index: 1000;
+}
+.dpmenu-EMUI5-down{
+	top: 36px;
+}
+.dpmenu-EMU5 .flow-top{
+	position: absolute;
+    top: -1px;
+    width: 100%;
+    height: 1px;
+}
+.dpmenu-EMU5 li{
+	font-size: 15px;
+    padding: 8px 16px;
+    overflow: hidden;
+    line-height: 1;
+}
+.dpmenu-EMU5 li:hover{
+	background-color: rgba(0, 125, 255, 0.2);
+}
+.uc-line{
+	padding: 0 16px;
+}
+.uc-line div{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: -1px;
+}
+.input-container{
+	margin-top: 10px;
+	background: #f7f7f7;
+	height: 42px;
+	border: 1px solid #d9d9d9;
+	border-radius: 21px;
+	position: relative;
+}
+#randomCodeDiv{
+	margin-top: 30px;
+}
+.set-password{
+	margin: 30px 0;
+}
+
+.reg-btn{
+	margin-top: 30px;
+	text-align: center;
+}
+.btn{
+	width: 200px;
+	height: 40px;
+	background-color: #B40707;
+	border: none;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: #C70000;
+    border-color: #C70000;
+}
+.input-left{
+	width: 90px;
+	height: 100%;
+	border-right: 1px solid #d9d9d9;
+	padding: 0 16px;
+	line-height: 42px;
+	text-align: justify;
+	text-align-last: justify;
+	float: left;
+}
+.input-content{
+	margin-left: 123px;
+	height: 100%;
+	overflow: visible;
+}
+.node-input{
+	width: 100%;
+	height: 44px;
+	position: relative;
+	float: right;
+}
+.node-input span{
+	font-size: 15px;
+	vertical-align: middle;
+	display: inline-block;
+	height: 42px;
+	line-height: 42px;
+	padding: 0 16px;
+}
+.select-ico{
+	position: absolute;
+	right: 16px;
+	top: 17px;
+	width: 12px;
+	height: 6px;
+	background: url(../images/resgister_img/triangle_green.png);
+	background-size: cover;
+	margin-left: 8px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.box-shadow{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 40px;
+	border-bottom: 1px solid #d7d7d7;
+	text-align: center;
+	background: #f2f2f2;
+}
+.foot{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}
+.foot p{
+	font-size: 12px;
+	line-height: 24px;
+	margin: 0 auto;
+}
+.foot p a{
+	font-size: 12px;
+	color: #999;
+	padding: 0 10px;
+}
+em{
+	font-size: 12px;
+	color: #999;
+}

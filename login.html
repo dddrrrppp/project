@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		
+		<link href="https://hwid1.vmall.com/CAS/up/rss_21/../common/images/default/favicon.ico"
+			 type="image/x-icon" rel="shortcut icon" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/login.css" />
+	</head>
+	<body>
+		<div id="logo">
+			<div class="logo">
+				<img src="images/login_img/HUAWEI.png">
+				<h2>华为商城</h2>
+			</div>
+		</div>
+		<div id="second">
+			<div class="second">
+				<h2>依据《网络安全法》，为保障您的账号安全与正常使用，请尽快绑定您的手机号，感谢您的理解及支持！</h2>
+			</div>
+		</div>
+		<div id="main">
+			<div class="main">
+				<form>
+					<div class="head">
+						<span class="loginTitle-left active">账号登录</span>
+						<span class="loginTitle-right">扫码登录</span>
+					</div>
+					<div class="account">
+						<div class="userAccountLogin-errorTipsDiv"></div>
+						<!--<form class="register">-->
+							<table border="0" cellpadding="0" cellspacing="0" class="register">
+								<tbody>
+									<tr>
+										<td class="user-input-tr">
+											<input type="text" autocomplete="off" class="text vam username" name="username" maxlength="50" tabindex="1"
+												placeholder="手机号/邮件地址">
+											<div class="errorN" style="color: #ca141d;font-size: 12px;display: none;">您输入的用户名有误，请重新输入</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="user-input-tr">
+											<input type="password" autocomplete="off" class="text vam password" name="password" maxlength="50" tabindex="1"
+												placeholder="密码">
+											<div class="errorP" style="color: #ca141d;font-size: 12px;display: none;">您输入的密码有误，请重新输入</div>
+										</td>
+									</tr>
+									<tr>
+										<td id="picAuth" class="verify-td" style="margin-top: -5px; padding: 0;"></td>
+									</tr>
+									<tr>
+										<td class="mt-links lineHeightFix" id="operLinkTd">
+											<span class="changeLoginType l" title="短信验证码登录" style="visibility: visible;">
+												<i class="phoneIcon marginR6"></i>短信验证码登录
+											</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<input type="button" class="button-login" value="登录" name="btn">
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+						<!--</form>-->
+					</div>
+					<div class="accountT image" style="display: none;">
+						<img src="images/login_img/getqrWeb.png" style="margin: 0 auto;">
+					</div>
+					<div class="loginBlock">
+						<div class="lintTitle">
+							<i class="line-left"></i>
+							<span class="tips">其他方式登录</span>
+							<i class="line-right"></i>
+						</div>
+						<div class="loginDiv">
+							<span class="qqLogin_bigIco" title="QQ">
+								<a href="javascript:void(0);" tourl="/qq/authorize">
+									<s></s>
+								</a>
+							</span>
+							<span class="alipayLogin_bigIco" title="支付宝">
+								<a href="javascript:void(0);" tourl="/qq/authorize">
+									<s></s>
+								</a>
+							</span>
+							<span class="weixinLogin_bigIco" title="微信">
+								<a href="javascript:void(0);" tourl="/qq/authorize">
+									<s></s>
+								</a>
+							</span>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="last">
+			<div class="last">
+				<div class="last-footer">
+					<div class="ft">
+						<p style="text-align: center; line-height: 20px; height: 20px;">
+							<a href="https://hwid1.vmall.com/CAS/portal/agreements/userAgreement/zh-cn_userAgreement.html?version=china&countryCode=cn" class="rule" target="_blank">华为账号用户协议</a>
+							<em class="foot_em">丨</em>
+							<a href="https://hwid1.vmall.com/CAS/portal/agreements/userAgreement/zh-cn_userAgreement.html?version=china&countryCode=cn" class="rule" target="_blank">关于华为帐号与隐私的声明</a>
+							<em class="foot_em">丨</em>
+							<a href="https://hwid1.vmall.com/CAS/portal/agreements/userAgreement/zh-cn_userAgreement.html?version=china&countryCode=cn" class="rule" target="_blank">常见问题</a>
+						</p>
+						<p style="text-align: center;line-height: 12px;height: 12px;margin-top: 10px;font-size: 12px;">
+							Copyright © 2011-2018  华为软件技术有限公司  版权所有  保留一切权利  苏B2-20070200号 | 苏ICP备09062682号-9
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/common/ajax.js"></script>
+		<script src="js/login.js"></script>
+		<script>
+			load.init();
+			login.init('.register')
+		</script>
+	</body>
+</html>
